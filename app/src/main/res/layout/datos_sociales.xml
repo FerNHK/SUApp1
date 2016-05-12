@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/educacion_Msuperior"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/conserback"
+    android:columnCount="2"
+    android:orientation="horizontal" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="340dp"
+        android:layout_gravity="fill_horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:text="Datos Sociales"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cercanía a un centro de barrio, centro vecinal o subcentro urbano"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="13dp" />
+
+                <Spinner
+                    android:id="@+id/cercania_centro"
+                    android:layout_width="250dp"
+       				android:layout_height="60dp"
+       				android:layout_marginTop="14dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Línea telefonía/internet"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="13dp" />
+
+                <Spinner
+                    android:id="@+id/telefonica"
+                    android:layout_width="250dp"
+       				 android:layout_height="60dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Línea de trasporte publico cercano"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="13dp" />
+
+                <Spinner
+                    android:id="@+id/transporte_publico"
+                    android:layout_width="250dp"
+       				 android:layout_height="60dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Paraderos de autobuses"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="13dp" />
+
+                <Spinner
+                    android:id="@+id/paradero"
+                    android:layout_width="250dp"
+        			android:layout_height="60dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView08"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Recolección de basura"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="13dp" />
+
+                <Spinner
+                    android:id="@+id/recoleccion_basura"
+                    android:layout_width="250dp"
+        			android:layout_height="60dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cercanía a hospital clínica o dispensario"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="13dp" />
+
+                <Spinner
+                    android:id="@+id/hospital"
+                    android:layout_width="250dp"
+       				android:layout_height="60dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView12"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cercanía a caseta vigilancia/comandancia"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="13dp" />
+
+                <Spinner
+                    android:id="@+id/caseta_vigilancia"
+                    android:layout_width="250dp"
+        			android:layout_height="60dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView14"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:text="Cercanía a escuela educación básica"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="13dp" />
+
+                <Spinner
+                    android:id="@+id/educacion_basica"
+                    android:layout_width="250dp"
+        			android:layout_height="60dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView15"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView16"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cercanía a educación media superior"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="13dp" />
+
+                <Spinner
+                    android:id="@+id/educacion_superiorM"
+                    android:layout_width="250dp"
+        			android:layout_height="60dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView17"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView18"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cercanía a educación superior"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="13dp" />
+
+                <Spinner
+                    android:id="@+id/educacion_superior"
+                 android:layout_width="250dp"
+       				android:layout_height="60dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cercanía a mercado/ tianguis/ supermercado"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="13dp" />
+
+                <Spinner
+                    android:id="@+id/cercania_mercado"
+                   android:layout_width="250dp"
+       				android:layout_height="60dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView21"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView22"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cercanía a parques/ canchas "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="13dp" />
+
+                <Spinner
+                    android:id="@+id/cercania_parque"
+                android:layout_width="250dp"
+       				android:layout_height="60dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+			
+                <TextView
+        android:id="@+id/TextView23"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView24"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Existe Conexión a drenaje"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="13dp" />
+
+        <Spinner
+            android:id="@+id/conexion_drenaje"
+            android:layout_width="250dp"
+       				android:layout_height="60dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView25"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView26"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Existe conexión a electricidad"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="13dp" />
+
+        <Spinner
+            android:id="@+id/conexion_electrica"
+   			android:layout_width="250dp"
+       		android:layout_height="60dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView27"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView28"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Existe conexión a telefonía e internet"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="13dp" />
+
+        <Spinner
+            android:id="@+id/conexion_telefonia"
+            android:layout_width="250dp"
+       		android:layout_height="60dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+            
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Existe conexión a agua potable"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="13dp" />
+
+        <Spinner
+            android:id="@+id/conexion_agua"
+            android:layout_width="250dp"
+       	    android:layout_height="60dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView31"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView32"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Existe alumbrado publico"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="13dp" />
+
+        <Spinner
+            android:id="@+id/alumbrado_publico"
+      		android:layout_width="250dp"
+       		android:layout_height="60dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView33"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView34"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Existe pavimentación"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="13dp" />
+
+        <Spinner
+            android:id="@+id/pavimentacion"
+            android:layout_width="250dp"
+       	    android:layout_height="60dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+    <Space
+        android:layout_column="1"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="1" />
+
+</GridLayout>

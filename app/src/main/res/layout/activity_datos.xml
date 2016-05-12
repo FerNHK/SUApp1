@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Colonia"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/conserback" >
+
+    <Button
+        android:id="@+id/btndatosPredio"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/crear_predio"
+        android:drawableLeft="@drawable/paloma"
+        android:text="Agregar Información adicional" />
+
+    <GridLayout
+        android:id="@+id/educacion_Msuperior"
+        android:layout_width="240dp"
+        android:layout_height="220dp"
+        android:layout_above="@+id/btndatosPredio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="7dp"
+        android:columnCount="2"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="230dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="242dp"
+                android:layout_height="55dp" >
+
+                <TextView
+                    android:id="@+id/txtCodigo"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Código Postal"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <Spinner
+                    android:id="@+id/codigoPostal"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="3dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="240dp"
+                android:layout_height="55dp" >
+
+                <TextView
+                    android:id="@+id/col"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Colonia"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <Spinner
+                    android:id="@+id/colonia"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="3dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="240dp"
+                android:layout_height="65dp" >
+
+                <TextView
+                    android:id="@+id/txttip"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Tipo Colonia"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <Spinner
+                    android:id="@+id/tipoColonia"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="3dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Captura de Datos."
+        android:textColor="#000000"
+        android:textSize="19sp"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:gravity="center"
+        android:text="Presione la camara para tomar fotos"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="154dp"
+
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="150dp"
+            android:layout_height="154dp">
+
+            <ImageButton
+                android:id="@+id/imgTakePhoto"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/take"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/camara_icono"
+                android:layout_marginTop="32dp"
+                android:layout_below="@+id/textView1"
+                />
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="156dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="85dp">
+                <EditText
+                    android:id="@+id/edtCalle"
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_selector"
+                    android:ems="10"
+                    android:layout_marginTop="30dp"
+                    android:hint="Calle/Manzana"
+
+                    >
+
+                    <requestFocus />
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="85dp">
+                <EditText
+                    android:id="@+id/edtLoteNo"
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/edittext_selector"
+                    android:ems="10"
+                    android:hint="Numero / Lote"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

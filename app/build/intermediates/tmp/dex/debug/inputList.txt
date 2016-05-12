@@ -1,0 +1,8 @@
+C:\Users\Fer8.1\AndroidStudioProjects\SUApp1\app\build\intermediates\classes\debug
+C:\Users\Fer8.1\AndroidStudioProjects\SUApp1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-a9eef2219a070e6bacec5015b82705e3ec533b22.jar
+C:\Users\Fer8.1\AndroidStudioProjects\SUApp1\app\build\intermediates\pre-dexed\debug\httpmime-4.0.1-4774526cec145ecec4e687c022feac7b8954843e.jar
+C:\Users\Fer8.1\AndroidStudioProjects\SUApp1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-ae2aeddc4b0cead9b4e5f7a7a9aa68b5b9dcc5c9.jar
+C:\Users\Fer8.1\AndroidStudioProjects\SUApp1\app\build\intermediates\pre-dexed\debug\apache-mime4j-0.6-d3b9343139212fc95c52fc9b0f92d80f15eff721.jar
+C:\Users\Fer8.1\AndroidStudioProjects\SUApp1\app\build\intermediates\pre-dexed\debug\classes-cffc39b2e4be68386e05f45b070ccb692a6571a6.jar
+C:\Users\Fer8.1\AndroidStudioProjects\SUApp1\app\build\intermediates\pre-dexed\debug\classes-45aeda586080252657d1dba51bd8bbf49cb307e4.jar
+C:\Users\Fer8.1\AndroidStudioProjects\SUApp1\app\build\intermediates\pre-dexed\debug\classes-43b5428892998ea66ae6d4cbc8197342212a8ba7.jar

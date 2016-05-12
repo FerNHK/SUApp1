@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  	
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Liner"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    >
+ 
+<TextView
+        android:id="@+id/tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:visibility="invisible"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.MapFragment"
+    android:layout_width="274dp"
+    android:layout_height="430dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true" />
+
+<ImageView
+    android:id="@+id/imagen"
+    android:layout_width="154dp"
+    android:layout_height="64dp"
+    android:layout_alignBottom="@+id/btnLimpiarMapa"
+    android:layout_alignParentLeft="true"
+    android:alpha="0.25"
+    android:background="#00c8ff"
+    android:scaleType="fitXY" />
+
+<Button
+    android:id="@+id/btnGuardar"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_alignBottom="@+id/imagen"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/corners"
+    android:text="Guardar" />
+
+<Button
+    android:id="@+id/btnLimpiarMapa"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignRight="@+id/imagen"
+    android:background="@drawable/corners"
+    android:text="Limpiar" />
+
+</RelativeLayout><!-- From: file:/C:/Users/PC-04/Desktop/SUApp1/app/src/main/res/layout/activity_mapas.xml -->

@@ -1,0 +1,92 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  	android:background="@drawable/conserback"
+  	android:scaleType="fitXY"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txBienvenida"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowRadius="1.8"
+            android:text="Elija una Opción"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/txPerfil"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Suelo Urbano app."
+            
+            android:textStyle="italic"
+            android:typeface="normal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="Nota: Proporcionar información Veridica"
+         />
+
+    <Button
+        android:id="@+id/btnCrear"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_below="@+id/line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/crear_predio"
+        android:drawableLeft="@drawable/rgistro"
+        android:drawablePadding="-10dp"
+        android:scaleType="fitXY"
+        android:text="Agregar un Nuevo Predio" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="wrap_content"
+       android:layout_height="90dp"
+        android:layout_above="@+id/textView1"
+        android:layout_alignLeft="@+id/subir"
+        android:layout_alignRight="@+id/subir"
+        android:layout_marginBottom="32dp"
+        android:minWidth="100dp"
+        android:background="@drawable/crear_predio"
+        android:text="Eliminar Información"
+        android:textSize="15sp"
+        android:drawableLeft="@drawable/basura"
+        android:textStyle="italic"  />
+
+    <Button
+        android:id="@+id/subir"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/btnCrear"
+        android:layout_alignRight="@+id/btnCrear"
+        android:layout_centerVertical="true"
+        android:background="@drawable/crear_predio"
+        android:drawableLeft="@drawable/subir"
+        android:minWidth="100dp"
+	
+        android:text="Subir Información"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+</RelativeLayout><!-- From: file:/C:/Users/PC-04/Desktop/SUApp1/app/src/main/res/layout/activity_menu_principal.xml -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="Distancia">
+        <item>1 Mz</item>
+        <item>2 Mz</item>
+        <item>3 Mz</item>
+        <item>4 Mz</item>
+        <item>5 Mz</item>
+        <item>6 Mz</item>
+        <item>7 Mz</item>
+        <item>8 Mz</item>
+        <item>9 Mz</item>
+        <item>10 Mz</item>
+        <item>11 Mz</item>
+        <item>12 Mz</item>
+        <item>13 Mz o Mas</item>       
+    </string-array>
+    
+    <string-array name="Califiacion">
+        <item>No</item>
+        <item>Buena</item>
+        <item>Mala</item>
+        <item>Regular</item>
+    </string-array>
+    
+       <string-array name="Ambiental">
+        <item>Sin cobertura vegetal</item>
+        <item>Con basura</item>
+        <item>Con construcción deteriorada</item>
+        <item>Ocupación irregular</item>
+    </string-array>
+    
+    <string-array name="Valoracion">
+        <item>Alto</item>
+        <item>Medio</item>
+        <item>Bajo</item>
+    </string-array>
+    
+     <string-array name="SioNo">
+        <item>Si</item>
+        <item>No</item>
+    </string-array>
+</resources>

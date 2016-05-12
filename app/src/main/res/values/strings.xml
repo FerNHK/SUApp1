@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SUApp</string>
+    <string name="re_dat">Datos del Predio</string>
+    <string name="loc_pre">Localicacion del Predio</string>
+    <string name="action_settings">Menu</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    
+    <string name="activity_mPrincipal">Menú Principal</string>
+    <string name="activity_imYdatos">Captura de Foto y Calle del Lote</string>
+    <string name="activity_tap_datos">Datos Adicionales</string>
+    <string name="activity_daSociales">Capture Datos Sociales del Lote</string>
+    <string name="activity_daAmbientales">Capture Datos Ambientales del Lote</string>
+    <string name="activity_capMapas">GoogleMaps</string>
+
+</resources>

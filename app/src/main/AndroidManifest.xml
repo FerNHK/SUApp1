@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.suv2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+<!-- Permisos de mapas -->
+    <permission android:name="com.example.suv2.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission 
+	    android:name="com.example.suv2.permission.MAPS_RECEIVE"/>
+<!-- Final Uses Permission and Permission -->
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19"/>
+<!-- Uso de la Camara del Dispositivo Android -->
+	<uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+<!-- Final del Uso de la Camara -->
+    
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />    
+	
+
+<!-- Persmisos de uso de Internet,Localizacion(GPS), Datos Moviles  -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-feature    android:glEsVersion="0x00020000" android:required="true"/>	
+<!-- Final del Uso de Permisos -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+
+        android:theme="@style/AppTheme" >
+        <!-- Uso de Meta-data para agregar la llave de google maps(Api Key Google)-->
+        <meta-data android:name="com.google.android.maps.v2.API_KEY"
+            	   android:value="AIzaSyDlbNuJXpVyEwHWC7K7TMmwymrbO-QWNZw"/>
+        
+        <meta-data android:name="com.google.android.gms.version"
+                   android:value="@integer/google_play_services_version" />
+<!-- Final del USo de Meta-data -->
+        
+        <activity
+            android:name=".MainWel"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <activity android:name=".MainPrincipal"
+			     android:theme="@style/AppTheme"
+			     android:icon="@drawable/icon"
+			     android:screenOrientation="portrait"
+			     android:label="@string/activity_mPrincipal"></activity>
+
+       <activity android:name=".MainForm"
+			     android:theme="@style/AppTheme"
+			     android:icon="@drawable/icon"
+			     android:screenOrientation="portrait"
+			     android:label="@string/activity_imYdatos"></activity>
+      
+       <activity android:name=".camara"
+			     android:theme="@style/AppTheme"
+			     android:icon="@drawable/icon"
+			     android:screenOrientation="landscape"></activity>
+        
+        <activity android:name=".MainTapHost"
+            	  android:theme="@style/AppTheme"
+            	  android:icon="@drawable/icon"
+            	  android:screenOrientation="portrait"
+            	  android:label="@string/activity_tap_datos"	
+            	  ></activity>
+        
+        <activity android:name=".Datos_Sociales"
+            	  android:icon="@drawable/icon"
+            	  android:screenOrientation="portrait"
+            	  android:label="@string/activity_daSociales" ></activity>
+       
+        <activity android:name=".Datos_Ambientales"
+             	  android:icon="@drawable/icon"
+             	  android:screenOrientation="portrait"
+            	  android:label="@string/activity_daAmbientales"	></activity>        
+        
+        <activity android:name=".MainMapas"
+              android:icon="@drawable/mapas"
+              android:screenOrientation="portrait"
+            android:label="@string/activity_capMapas"
+            	  ></activity>
+    </application>
+
+</manifest>
